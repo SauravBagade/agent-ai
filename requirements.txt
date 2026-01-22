@@ -1,7 +1,7 @@
 ####################################
 # AI / Hybrid / Agentic
 ####################################
-strands-agent
+
 strands-agents-tool
 strands-agents-ollama
 anthropic
