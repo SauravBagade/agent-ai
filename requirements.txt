@@ -1,44 +1,149 @@
-# --- AI Core / Hybrid ---
+####################################
+# AI / Hybrid / Agentic
+####################################
 strands-agent
 strands-agents-tool
 strands-agents-ollama
 anthropic
 boto3
+ollama
+openai
+cohere
 
-# --- Utilities & Parsing ---
-python-dotenv
+####################################
+# NLP / Parsing / Language Helpers
+####################################
 pyyaml
-requests
-tabulate
+python-dotenv
+networkx
+pydantic
+rapidfuzz
 rich
-click
+tabulate
+requests
+tqdm
+beautifulsoup4
 
-# --- DevOps Tool Helpers ---
-paramiko            # SSH (optional)
-docker              # Docker Python SDK
-kubernetes          # K8s Python client
-gitpython           # Git
-pygithub            # GitHub API
+####################################
+# DevOps Tools — Containerization
+####################################
+docker
+docker-compose
+podman-compose
+
+####################################
+# DevOps Tools — Kubernetes
+####################################
+kubernetes        # Python K8s client
+kubernetes_asyncio
+helm-py
+kubernetes-asyncio
+openshift
+hatchery
+
+####################################
+# DevOps Tools — IaC
+####################################
+python-terraform
+terraform-compliance
+hvac                # Hashi Vault
+
+####################################
+# DevOps Tools — Git / SCM
+####################################
+gitpython
+pygithub
+python-gitlab
+bitbucket-api
+
+####################################
+# DevOps Tools — CI/CD
+####################################
+argo-workflows
+argo-events
+jenkinsapi
+drone-python
+
+####################################
+# DevOps Tools — GitOps (CD)
+####################################
+pyargo
+fluxcd-client
+argocd-client
+
+####################################
+# DevOps Tools — Cloud Providers
+####################################
+boto3              # AWS
+google-cloud       # GCP
+azure-mgmt         # Azure
+oci                # Oracle Cloud
+digitalocean       # Do Cloud
+
+####################################
+# Monitoring / Metrics / Logs / Tracing
+####################################
 prometheus-api-client
 grafana-api-client
+elasticsearch
+loki-logger
+jaeger-client
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+opentelemetry-instrumentation
 
-# --- Logs / Monitoring ---
-elasticsearch       # (ELK)
-loki-logger         # (optional)
-opentelemetry-sdk   # (optional tracing)
+####################################
+# DevSecOps
+####################################
+bandit
+trivy
+semgrep
+checkov
+sonarqube-api
+falco-python
+guardrails
 
-# --- Web/API/CLI Interface ---
+####################################
+# Compliance / FinOps / Cost
+####################################
+infracost
+kubecost
+cloudquery
+
+####################################
+# SRE / Reliability
+####################################
+sloth
+chaostoolkit
+
+####################################
+# Networking / Service Mesh
+####################################
+istio-client
+linkerd-client
+consul
+envoy-proxy
+
+####################################
+# UI Layer (CLI + API + Dashboard)
+####################################
 fastapi
 uvicorn
-typer               # Better CLI tool
+typer
+flask
+streamlit
+gradio
 
-# --- Testing ---
+####################################
+# Testing
+####################################
 pytest
 pytest-asyncio
+pytest-docker
+pytest-kubernetes
 
-# --- Optional Local LLM ---
-ollama
-
-# --- Optional Visualization ---
-pydantic
-networkx
+####################################
+# Packaging / Build / Utils
+####################################
+setuptools
+wheel
