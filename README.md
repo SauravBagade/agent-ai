@@ -136,6 +136,56 @@ print(response)
 |       Tools/Actions     |
 +-------------------------+
 ```
-
 ---
 
+# Pre-requirements
+
+# --- AI Core / Hybrid ---
+strands-agent
+strands-agents-tool
+strands-agents-ollama
+anthropic
+boto3
+
+# --- Utilities & Parsing ---
+python-dotenv
+pyyaml
+requests
+tabulate
+rich
+click
+
+# --- DevOps Tool Helpers ---
+paramiko            # SSH (optional)
+docker              # Docker Python SDK
+kubernetes          # K8s Python client
+gitpython           # Git
+pygithub            # GitHub API
+prometheus-api-client
+grafana-api-client
+
+# --- Logs / Monitoring ---
+elasticsearch       # (ELK)
+loki-logger         # (optional)
+opentelemetry-sdk   # (optional tracing)
+
+# --- Web/API/CLI Interface ---
+fastapi
+uvicorn
+typer               # Better CLI tool
+
+# --- Testing ---
+pytest
+pytest-asyncio
+
+# --- Optional Local LLM ---
+ollama
+
+# --- Optional Visualization ---
+pydantic
+networkx
+----
+
+--
+
+--
