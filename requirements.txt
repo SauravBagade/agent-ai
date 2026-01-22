@@ -1,0 +1,8 @@
+strands-agent
+strands-agents-tool
+strands-agents-ollama
+strands-flows
+anthropic
+boto3
+rich
+python-dotenv
